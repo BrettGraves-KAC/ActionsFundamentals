@@ -12,7 +12,7 @@ on:
       current-time:
         description: 'The time when greeting.'
         value: ${{ jobs.reusable-job.outputs.current-time }}
-
+#test
 jobs:
   reusable-job:
     runs-on: ubuntu-latest
